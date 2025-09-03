@@ -1,0 +1,3 @@
+Blockchain is a distributed ledger technology that allows secure, transparent, and tamper-proof transactions.
+It is widely used in cryptocurrencies such as Bitcoin and Ethereum.
+Other applications include supply chain management and digital identity verification.
