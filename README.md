@@ -32,3 +32,35 @@ It combines **embeddings** (MiniLM) with a **vector store (FAISS)** to retrieve 
    ```bash
    git clone https://github.com/Kanika1123/Document_QA_with_RAG.git
    cd Document_QA_with_RAG
+2. Create and activate a virtual environment:
+   python3 -m venv venv
+   source venv/bin/activate   # On Linux/Mac
+   venv\Scripts\activate      # On Windows
+3. Install Dependencies
+   pip install -r requirements.txt
+   (If requirements.txt is missing, install manually:)
+   pip install streamlit faiss-cpu sentence-transformers
+4.Run the app
+   streamlit run rag_app.py
+5. Open in your browser
+   http://localhost:8501
+   
+Example Usage
+Upload tech.txt or any text file.
+
+Ask a question like "What is cloud computing?".
+The app retrieves the most relevant chunks and produces a final answer.
+
+Future Improvements:
+- Add support for PDF and DOCX files.  
+- Integrate a generative LLM for more natural answers.  
+- Experiment with smarter semantic chunking (sentence/paragraph-based splits).  
+- Auto-tune chunk size based on document length for better retrieval.  
+
+ Author
+Kanika Bansal
+   
+   
+   
+
+   
