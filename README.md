@@ -1,6 +1,9 @@
 Resume link: https://drive.google.com/file/d/1hKCMavdNGI2s5oQ8RxhkespBwuaqEAWs/view?usp=sharing
 
-# Document Q&A with RAG
+# Document_QA_with_RAG
+
+🚀 **Live Demo:** [Click here to try the app](https://documentappwithrag-nj3xvnlmdg69ewvkcktrea.streamlit.app/)
+
 
 This project is a lightweight implementation of **Retrieval-Augmented Generation (RAG)** for answering questions from documents.  
 It combines **embeddings** (MiniLM) with a **vector store (FAISS)** to retrieve relevant text chunks and generate answers.
@@ -42,8 +45,7 @@ It combines **embeddings** (MiniLM) with a **vector store (FAISS)** to retrieve 
    pip install streamlit faiss-cpu sentence-transformers
 4.Run the app
    streamlit run rag_app.py
-5. Open in your browser
-   http://localhost:8501
+
    
 Example Usage
 Upload tech.txt or any text file.
